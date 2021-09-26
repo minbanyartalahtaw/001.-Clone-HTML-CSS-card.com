@@ -1,0 +1,333 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+.top{   
+    
+    width: 70%;
+    display: flex;
+    margin: 20px auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.firstlogo{
+
+    border-right: gainsboro solid;
+    border-width: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    
+}
+
+
+.lefttop{
+
+    display: flex;
+    align-items: center;
+    width: 550px;
+  
+    justify-content: space-between  
+}
+
+.metabanklogo{
+    width:  ;
+    margin-bottom: 2px;
+}
+
+
+
+.topmenu a{
+
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+.bluebackground p{
+    
+    font-size: 20px;
+    color: white;
+    margin-top: 1px;
+}
+
+.bluebackground a{
+
+    color: white;
+}
+
+.bluebackground{
+    width: 100%;
+    height: 80px;
+    background-color: #4455BB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photobackground{
+
+    background-image: url(https://bit.ly/3tRzxYZ);
+    width: 100%;
+    height: 75vh;
+    background-position: center;
+    background-size: cover;
+
+    
+   
+}
+
+.maincards{
+
+    width: 100%;
+}
+
+.main{
+    margin:0 auto;
+    width:50% ;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.photobackgroundleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 60%; 
+    width: 50%;
+}
+
+
+
+.photobackgroundright{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.photobackgroundright img{
+    transform: scale(1.1);
+    transition: 1.5s;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 50%;
+}
+
+.photobackgroundright img:hover{
+
+    transform: scale(1.15);
+}
+
+.buttom{
+    border: none;
+    border-radius: 10px;
+    width: 170px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #4455BB;
+    color: white;
+    font-size: large;
+    transform: scale(1);
+    transition: 1s;
+}
+
+.buttom:hover{
+    background-color: #6f84fa;
+    transform: scale(1.1);
+}
+
+.premiumbanking{
+    font-family: sans-serif;
+    font-size: 100;
+    font-weight: 200;
+
+}
+
+
+.allthefeautres{
+
+    font-weight: 100;
+}
+
+.Protection{
+    width: 60%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Protectionphoto{
+    
+    width: 17%;
+}
+
+.shieldphoto{
+   margin-left: 0;
+    width: 100%;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.shieldphoto:hover{
+
+    margin-left: 25px;
+}
+
+.Optional{
+
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.guard{
+
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.greenbackground{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.greenbackgroundleft{
+    background-color: rgb(231, 231, 231);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+
+}
+
+.greenbackgroundright{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #71D370;
+    width: 50%;
+}
+
+.wedthu{
+    overflow: hidden;
+    width: 52%;
+}
+
+.paycheck{
+    padding-top: 40px;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.Deposit{
+    padding-bottom: 40px;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.paybackdeposit{
+    cursor: pointer;
+    transform: scale(1);
+    transition: 1.5s;
+}
+
+.paybackdeposit:hover{
+   
+    transform: scale(1.1);
+}
+
+
+.fees{
+    width: 65%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+    justify-content: space-between;
+    margin: 20px auto;  
+
+}
+
+.feesphoto{
+    margin-left: 0px;
+    transition: 1.5s;
+    width: 250px;
+}
+
+.feesphoto:hover{
+
+    margin-left: 25px;
+}
+
+.feesright h1{
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.worldclass{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(230, 230, 230);
+}
+
+.saving{
+    padding: 20px;
+}
+
+.worldclassright-top{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+    border-radius: 10px;
+}
+
+.worldclassright-top img{
+
+    width: 70px;
+}
+
+.worldclassright-top p{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card1{
+    
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 40px;
+    display: flex;
+    
+    border: tomato solid;
+    height: 300px;
+}
+
+.worldclassright-bot p{
+    font-size: 20px;
+}
+   
