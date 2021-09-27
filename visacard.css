@@ -282,52 +282,153 @@
     font-weight: bold;
 }
 
-.worldclass{
-    display: flex;
+.worldclassContainer{
+
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(236, 236, 236);
+}
+
+.worldclassMain{
+
+    display:flex ;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    background-color: rgb(230, 230, 230);
+    align-items: center;
+    padding: 25px;
 }
 
-.saving{
-    padding: 20px;
+.worldclassTop h1{
+
+
 }
 
-.worldclassright-top{
+.worldclassBot{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    flex-wrap: wrap;
+}
+
+/******************************************************************     saving   *****************************************************************/
+
+.saving_Container{
+    background-color: rgb(255, 255, 255);
+    width: 340px;
+    height: 220px;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    transform: scale(1);
+    transition: 1.5s;
     
+}
+
+.saving_Container:hover{
+    transform: scale(1.1);
+}
+
+.saving_Main{
+    padding: 10px;
+    
+}
+
+.saving_Main_Top{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-   
-    border-radius: 10px;
+    justify-content: space-around;
 }
 
-.worldclassright-top img{
+.saving_Main_Top img{
 
-    width: 70px;
+width: 80px;
 }
 
-.worldclassright-top p{
-    margin-left: 10px;
-    margin-top: 15px;
-    font-weight: bold;
+.saving_Main_Top p{
     font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
 }
 
-.card1{
+
+
+/******************************************************************     Security   *****************************************************************/
+
+.security_Container{
+    background-color: rgb(255, 255, 255);
+    width: 340px;
+    height: 220px;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    transform: scale(1);
+    transition: 1.5s;
     
-    background-color: white;
-    border-radius: 10px;
-    padding: 20px 40px;
+}
+
+.security_Container:hover{
+    transform: scale(1.1);
+}
+
+.security_Main{
+    padding: 10px;
+    
+}
+
+.security_Main_Top{
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     
-    border: tomato solid;
-    height: 300px;
 }
 
-.worldclassright-bot p{
-    font-size: 20px;
+.security_Main_Top img{
+
+width: 70px;
 }
-   
+
+.security_Main_Top p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+/******************************************************************     payanyone   ****************************************************************/
+
+.payanyone_Container{
+    background-color: rgb(255, 255, 255);
+    width: 340px;
+    height: 220px;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    transform: scale(1);
+    transition: 1.5s;
+    
+}
+
+.payanyone_Container:hover{
+
+    transform: scale(1.1);
+}
+
+.payanyone_Main{
+    padding: 10px;
+    
+}
+
+.payanyone_Main_Top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.payanyone_Main_Top img{
+
+width: 70px;
+}
+
+.payanyone_Main_Top p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 15px;
+}
